@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  #root {
+    @apply w-full h-[100vh] flex items-center justify-center;
+  }
+
+  .Frame {
+    @apply shadow-md rounded-md p-5 max-w-[80vw];
+    @apply flex flex-col;
+  }
+}
